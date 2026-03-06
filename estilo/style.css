@@ -206,11 +206,13 @@ footer a{
     margin-left: 15px;
     font-family: var(--font-padrao);
     text-decoration: none;
-    color:var(--color5)
+    color:var(--color1)
 }
 
 footer a:hover{
+    color: var(--color2);
+
     border-radius: 3px;
     padding: 2px;
-    color: var(--color2);
+    text-decoration: underline;
 }
