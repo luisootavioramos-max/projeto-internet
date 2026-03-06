@@ -26,7 +26,7 @@
 }
 
 body, html{
-    background-color: var(--color1);
+    background-color: var(--color4);
     background-image: url(../imagens/fundo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@ header h1{
     text-align: center;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.377);
     font-family: var(--font-pixel);
+    font-variant: small-caps;
 
 }
 
@@ -85,12 +86,14 @@ main > article h1,h2,h3,h4,h5{
     background-image: linear-gradient(to right, var(--color3) , transparent);
     color: var(--color4);
     font-family: var(--font-pixel);
+    font-variant: small-caps;
     padding-top: 2px;
     
     margin-top: 40px;
 }
 
 main > article p{
+    color: black;
     text-indent: 10px;
     line-height: 1.8em;
     margin-top: 30px;
@@ -160,6 +163,31 @@ main  iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+main aside{
+    background-color: var(--color2);
+    padding-bottom: 20px;
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.021);
+
+    margin: 30px 0px 30px 0px;
+}
+
+main aside > h3#aside{
+    background-image: linear-gradient(to right,transparent, var(--color4) , transparent);
+    color: var(--color3);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+main aside > p{
+    color: var(--color1);
+    text-align: center;
 }
 
 footer{
