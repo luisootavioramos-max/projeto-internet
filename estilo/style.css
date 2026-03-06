@@ -46,6 +46,8 @@ header h1{
     font-family: var(--font-pixel);
     font-variant: small-caps;
 
+    margin: 0px 25px 0px 25px;
+
 }
 
 header > nav{
@@ -58,7 +60,7 @@ header > nav a{
     font-size: 30px;
     font-family: var(--font-01);
 
-    margin-right: 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 header > nav a:hover{
